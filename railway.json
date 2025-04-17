@@ -1,0 +1,13 @@
+{
+  "build": {
+    "builder": "NIXPACKS",
+    "config": {
+      "startCommand": "./start.sh"
+    }
+  },
+  "deploy": {
+    "startCommand": "./start.sh",
+    "restartPolicyType": "ALWAYS",
+    "restartPolicyMaxRetries": 10
+  }
+}
